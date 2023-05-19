@@ -9,7 +9,6 @@ namespace Contatos
 {
     internal class Program
     {
-        enum menu { Criar_Novo_Contato = 1, Lista_De_Contatos, Sair, FECHAR }
 
         static void Main(string[] args)
         {
