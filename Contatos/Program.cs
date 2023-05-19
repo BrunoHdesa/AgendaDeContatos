@@ -28,7 +28,7 @@ namespace AgendaDeContatos
                     Console.WriteLine("Digite o numero do contato");
                     string numeroContato = Console.ReadLine();
 
-                    string lista = @"C:\Users\bruno\Desktop\Bruno\Pessoal\Contatos\ListaContatos";
+                    string lista = @"C:\Users\bruno\Desktop\Bruno\Pessoal\AgendaDeContatos\ListaContatos";
                     using (StreamWriter texto = File.AppendText(lista))
                     {
                         texto.WriteLine("Nome: " + nomeContato);
@@ -44,7 +44,7 @@ namespace AgendaDeContatos
                 else if (escolha == 2)
                     // Exibir lista de contatos
                 {
-                    string[] lista = File.ReadAllLines(@"C:\Users\bruno\Desktop\Bruno\Pessoal\Contatos\ListaContatos");
+                    string[] lista = File.ReadAllLines(@"C:\Users\bruno\Desktop\Bruno\Pessoal\AgendaDeContatos\ListaContatos");
                     
                     Console.WriteLine("**Lista de Contatos**");
 
