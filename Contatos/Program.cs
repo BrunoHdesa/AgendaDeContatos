@@ -5,7 +5,6 @@ namespace AgendaDeContatos
 {
     internal class Program
     {
-
         static void Main(string[] args)
         {
             int escolha = 0;
